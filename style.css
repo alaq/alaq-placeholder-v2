@@ -2,8 +2,8 @@ body {
   background: linear-gradient(
     135deg,
     rgba(36, 39, 48, 1) 0%,
-    rgba(36, 39, 48, 0.97) 30%,
-    rgba(39, 39, 48, 0.95) 100%
+    rgba(36, 39, 48, 0.9) 30%,
+    rgba(39, 39, 48, 0.8) 100%
   );
   background-color: rgba(36, 39, 48, 1);
   text-align: center;
@@ -14,11 +14,6 @@ body {
   display: flex;
   align-items: center;
   align-content: center;
-}
-
-div {
-  /* background-color: blue;
-  width: 40em; */
 }
 
 .page {
