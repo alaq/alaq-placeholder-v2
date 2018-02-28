@@ -1,57 +1,40 @@
 body {
-  background: #000;
-  background-image: linear-gradient(135deg, rgb(247, 107, 29) 0%, rgb(247, 107, 29) 30%, rgb(255, 182, 49) 100%);
+  background: linear-gradient(135deg, rgba(36, 39, 48, 1) 0%, rgba(36, 39, 48, 0.97) 30%, rgba(39, 39, 48, 0.95) 100%);
+  background-color: rgba(36, 39, 48, 1);
   text-align: center;
   margin: 0;
-}
-
-p {
-  background-color: red;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-  display: inline-block;
-  border: 4px rgba(255, 255, 255, 0.25);
-  border-style: dotted;
-  border-width: 10px 0;
-  padding: 1.5em 0em;
-  position: absolute;
-  top: 18%;
-  left: 50%;
-  width: 50em;
-  margin: 0 0 0 -25em;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
 
-p span {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 4em;
-  font-weight: 700;
-  letter-spacing: 0;
-  padding: 0.25em 0 0.325em;
-  display: block;
-  margin: 0 auto;
-  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
-  /* Clip Background Image */
-  background: url(./background-pattern.png) repeat-y;
-  -webkit-background-clip: text;
-  background-clip: text;
-  /* Animate Background Image */
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: aitf 10s linear infinite;
-  /* Activate hardware acceleration for smoother animations */
-  -webkit-transform: translate3d(0, 0, 0);
-  -webkit-backface-visibility: hidden;
+div {
+  /* background-color: blue;
+  width: 40em; */
 }
 
-.social-icons {
-  color: #333;
+.page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  /* align-items: flex-end; */
+  align-content: center;
 }
 
-@-webkit-keyframes aitf {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
+.profile-content {
+  align-self: center;
+  width: 40em;
+}
+
+.head {
+  background-color: white;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.content {
+  background-color: white;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
