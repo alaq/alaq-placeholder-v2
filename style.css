@@ -71,10 +71,10 @@ span.waving {
 
 @keyframes anim {
   0% {
-    transform: rotate(-25deg);
+    transform: rotate(15deg);
   }
   100% {
-    transform: rotate(25deg);
+    transform: rotate(50deg);
   }
 }
 
