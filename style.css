@@ -58,3 +58,20 @@ h1 {
   -webkit-transform: rotate(25deg);
   transform: rotate(25deg);
 }
+
+span.waving {
+  animation: 1.5s anim ease-in-out infinite alternate-reverse;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@keyframes anim {
+  0% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: rotate(25deg);
+  }
+}
