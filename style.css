@@ -1,10 +1,5 @@
 body {
-  background: linear-gradient(
-    135deg,
-    rgba(36, 39, 48, 1) 0%,
-    rgba(36, 39, 48, 0.9) 30%,
-    rgba(39, 39, 48, 0.5) 100%
-  );
+  background: linear-gradient(135deg, rgba(36, 39, 48, 1) 0%, rgba(36, 39, 48, 0.9) 30%, rgba(39, 39, 48, 0.5) 100%);
   background-color: black;
   text-align: center;
   margin: 0;
@@ -79,8 +74,8 @@ span.waving {
 }
 
 .social-icons {
-  font-size: 1.5em;
-  margin-top: 0.5em;
+  font-size: 0.8em;
+  margin-top: 1.4em;
 }
 
 svg {
