@@ -78,6 +78,10 @@ span.waving {
   margin-top: 1.4em;
 }
 
+.social-icons > a {
+  color: grey;
+}
+
 svg {
   color: #aaa;
   fill: currentColor;
